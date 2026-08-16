@@ -1,0 +1,54 @@
+generated: '2026-08-16'
+method: probed
+source: https://foresightmentalhealth.com/
+host: https://foresightmentalhealth.com
+note: >-
+  Every /.well-known/ discovery path probed on the company's only public host returned HTTP 404
+  with an HTML body (the WordPress theme's 404 template). No document was served, so NO WellKnown
+  or SecurityTxt pointer is emitted in apis.yml — this file records a verified absence, not a
+  presence. Foresight Mental Health has no api./developer./docs./app./portal. hostname in DNS,
+  so there is no second host to probe.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /.well-known/agent-card.json
+  status: 404
+  file: null
+- path: /.well-known/agent.json
+  status: 404
+  file: null
+- path: /.well-known/mcp.json
+  status: 404
+  file: null
+- path: /.well-known/change-password
+  status: 404
+  file: null
+- path: /.well-known/dnt-policy.txt
+  status: 404
+  file: null
+x-evidence:
+  fetched: '2026-08-16'
+  hosts_probed:
+  - foresightmentalhealth.com
+  dns_checked:
+  - api.foresightmentalhealth.com
+  - developer.foresightmentalhealth.com
+  - docs.foresightmentalhealth.com
+  - app.foresightmentalhealth.com
+  - portal.foresightmentalhealth.com
+  - status.foresightmentalhealth.com
+  - my.foresightmentalhealth.com
+  dns_result: no A/CNAME records returned for any of the above

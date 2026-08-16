@@ -42,5 +42,10 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Foresight Mental Health is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/foresight-mental-health-stock
+Foresight Mental Health is a Berkeley, California technology-enabled outpatient behavioral health organization founded in 2018 by UC Berkeley computer science students Doug Hapeman and Matt Milford to widen access to insurance-covered therapy and psychiatry. It delivers virtual and in-person care through its own clinics in California and Georgia plus partner locations in Arizona, Florida and Texas — psychiatry and medication management, individual and couples therapy, child and adolescent services, a maternal mental health program, ADHD/IVA-2 CPT testing, intensive outpatient services in California and TMS in Georgia.
+
+Foresight buys its clinical technology rather than shipping it: scheduling runs through Zocdoc and the patient portals are operated by AdvancedMD (California) and athenahealth (elsewhere). It publishes **no developer program, no API documentation, and no machine-readable API contract**. The only machine-readable documents on its own host are a Yoast-generated `llms.txt`, a sitemap index, and the marketing site's stock WordPress core REST API at `/wp-json/`.
+
+- Website: https://foresightmentalhealth.com/
+- GitHub: https://github.com/ForesightMentalHealth
+- Secondary market: https://www.hiive.com/securities/foresight-mental-health-stock
