@@ -64,10 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Foresight Mental Health is a Berkeley, California technology-enabled outpatient behavioral health organization founded in 2018 by UC Berkeley computer science students Doug Hapeman and Matt Milford to widen access to insurance-covered therapy and psychiatry. It delivers virtual and in-person care through its own clinics in California and Georgia plus partner locations in Arizona, Florida and Texas — psychiatry and medication management, individual and couples therapy, child and adolescent services, a maternal mental health program, ADHD/IVA-2 CPT testing, intensive outpatient services in California and TMS in Georgia.
+Foresight Mental Health is a Berkeley, California technology-enabled outpatient behavioral health organization founded in 2018 by UC Berkeley computer science students Doug Hapeman and Matt Milford to widen access to insurance-covered therapy and psychiatry. It delivers virtual and in-person care through its own clinics in California and Georgia plus partner locations in Arizona, Florida and Texas, covering psychiatry and medication management, individual and couples therapy (CBT, DBT-informed care, EMDR, ACT, Gottman Method, play therapy), child and adolescent services, a maternal mental health program, ADHD/IVA-2 CPT testing, intensive outpatient services in California and transcranial magnetic stimulation in Georgia. The company acquired Psychiatric Addictive Curative Therapies (PACT) Atlanta and has raised roughly $17.7M across pre-seed through Series C with investors including Polaris Partners. Its clinical technology stack is bought rather than built and patient-facing: scheduling runs through Zocdoc and the patient portals are operated by third parties — AdvancedMD for California patients and athenahealth elsewhere. Foresight publishes no developer program, no API documentation, and no machine-readable API contract; the only machine-readable documents on its host are a Yoast-generated llms.txt, a sitemap index and the marketing site's stock WordPress core REST API at /wp-json/.
 
-Foresight buys its clinical technology rather than shipping it: scheduling runs through Zocdoc and the patient portals are operated by AdvancedMD (California) and athenahealth (elsewhere). It publishes **no developer program, no API documentation, and no machine-readable API contract**. The only machine-readable documents on its own host are a Yoast-generated `llms.txt`, a sitemap index, and the marketing site's stock WordPress core REST API at `/wp-json/`.
+**Areas:** Company · Healthcare · Mental Health · Behavioral Health · Telehealth · Psychiatry · Therapy · Digital Health · Outpatient Care · Insurance
 
-- Website: https://foresightmentalhealth.com/
-- GitHub: https://github.com/ForesightMentalHealth
-- Secondary market: https://www.hiive.com/securities/foresight-mental-health-stock
+## Foresight Mental Health on APIs.io
+
+Everything profiled for Foresight Mental Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/foresight-mental-health/](https://apis.io/providers/foresight-mental-health/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Foresight Mental Health Domain Security](https://apis.io/security/foresight-mental-health/foresight-mental-health-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://foresightmentalhealth.com/)
+- [Support](https://foresightmentalhealth.com/patient-information/contact-us/)
+- [Blog](https://foresightmentalhealth.com/blog/)
+- [Privacy policy](https://foresightmentalhealth.com/privacy-policy/)
+- [GitHub](https://github.com/ForesightMentalHealth)
+
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 17.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/foresight-mental-health/](https://apis.io/providers/foresight-mental-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Foresight Mental Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/foresight-mental-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
